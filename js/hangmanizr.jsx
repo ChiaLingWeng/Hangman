@@ -390,7 +390,7 @@ var Hangmanizr = React.createClass({
 							<path d="M86.444,58.217c0.713,0.713,1.869,0.713,2.583,0l5.421-5.421c1.15-1.15,0.336-3.117-1.291-3.117H82.314
 		c-1.627,0-2.442,1.967-1.291,3.117L86.444,58.217z" /></svg> Animals</button>
 
-						<button data-tooltip="180 words" className="topic" onClick={this.cssPropertiesGame} value="css" disabled={this.state.clickedButton === "css"}><svg viewBox="0 0 470.699 470.699" className="topicsSvg cssSvg">
+						<button data-tooltip="520 words" className="topic" onClick={this.cssPropertiesGame} value="css" disabled={this.state.clickedButton === "css"}><svg viewBox="0 0 470.699 470.699" className="topicsSvg cssSvg">
 							<path d="M426.981,0H43.701C34.52,0,27.632,7.769,28.442,16.949L63.45,409.254c0.811,9.173,8.745,18.774,17.644,21.253
 		l138.006,38.335c8.887,2.463,23.413,2.479,32.313,0.032l138.177-38.281c8.901-2.472,16.835-11.986,17.645-21.175l35.023-392.469
 		C443.068,7.769,436.209,0,426.981,0z M360.51,141.611c-0.006,0.06-0.053,0.107-0.112,0.117c-0.06,0.01-0.118-0.021-0.144-0.077
@@ -401,7 +401,7 @@ var Hangmanizr = React.createClass({
 		l61.521,21.385l61.803-21.58l7.559-71.17H129.835c-5.297,0-9.746-3.985-10.327-9.25l-3.327-30.164
 		c-0.508-4.601,2.088-8.982,6.366-10.745l111.837-46.109c1.269-0.523,1.99-1.868,1.724-3.214c-0.267-1.345-1.446-2.314-2.817-2.314
 		H115.542c-3.545,0-6.518-2.677-6.888-6.201l-3.406-32.421c-0.205-1.951,0.428-3.898,1.741-5.357
-		c1.313-1.458,3.184-2.291,5.146-2.291h246.379c1.973,0,3.852,0.842,5.166,2.313c1.314,1.472,1.938,3.434,1.715,5.394L360.51,141.611z" /></svg> CSS Properties</button>
+		c1.313-1.458,3.184-2.291,5.146-2.291h246.379c1.973,0,3.852,0.842,5.166,2.313c1.314,1.472,1.938,3.434,1.715,5.394L360.51,141.611z" /></svg> Chia Ling</button>
 
 						<button data-tooltip="129 words" className="topic" onClick={this.htmlElementsGame} value="html" disabled={this.state.clickedButton === "html"}><svg viewBox="0 0 456.804 456.804" className="topicsSvg htmlSvg">
 							<path d="M27.405,0l36.542,410.56l163.882,46.244l165.022-46.244L429.398,0H27.405z M350.025,133.904h-192.43l4.283,51.676h183.866

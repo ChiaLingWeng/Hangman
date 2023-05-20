@@ -38,7 +38,7 @@ var Hangmanizr = React.createClass({
 	},
 
 	cssPropertiesGame: function (e) {
-		var cssProperties = ["youknowwhat","iloveyousomuch"];
+		var cssProperties = ["youknowwhat","iloveyousomuch","heybaby"];
 
 		this.setState({
 			words: cssProperties,

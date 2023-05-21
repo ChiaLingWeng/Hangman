@@ -318,7 +318,7 @@ var Hangmanizr = React.createClass({
 			<div className={this.state.gameOver ? "container gameOver" : "container "}>
 
 				<header>
-					<a href="https://mburakerman.github.io/hangmanizr/" className="title">HANGMANIZR</a>
+					<p className="title">HANGMAN-with-Hsuan</p>
 					<p className="description">Quick Hangman Game</p>
 				</header>
 

@@ -52,9 +52,12 @@ You can just change the value and create your own question lists
 3. Save and commit the change
 4. On your repo, click __Setting__ --> __Pages__ --> __Branch__ --> Select __master__ branch
    
-   ![Alt Text](https://github.com/ChiaLingWeng/hangman/tree/master/readme_asset/github_page.png)
+   ![Alt Text](https://github.com/ChiaLingWeng/hangman/blob/master/readme_asset/github_page.png)
 5. Wait for 2~3 mins and refresh this page, your own webpage url will appear on the top of this page
    
-      ![Alt Text](https://github.com/ChiaLingWeng/hangman/tree/master/readme_asset/page_url.png)
+      ![Alt Text](https://github.com/ChiaLingWeng/hangman/blob/master/readme_asset/page_url.png)
+6. Kindly star this repo if you find it intetesting!
+
+
 ## License
 Licensed under the MIT License.

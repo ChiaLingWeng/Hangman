@@ -1,3 +1,4 @@
+// JSXTransformer.js, react-dom.min.js and react.min.js are scriprs used for .jsx and react lib.
 var Hangmanizr = React.createClass({
 	getInitialState: function () {
 		return {
@@ -18,7 +19,49 @@ var Hangmanizr = React.createClass({
 		}
 	},
 	animalsGame: function (e) {
-		var animals = ["aardvark", "albatross", "alligator", "alpaca", "ant", "anteater", "antelope", "ape", "armadillo", "donkey", "baboon", "badger", "barracuda", "bat", "bear", "beaver", "bee", "bison", "boar", "buffalo", "butterfly", "camel", "capybara", "caribou", "cassowary", "cat", "caterpillar", "cattle", "chamois", "cheetah", "chicken", "chimpanzee", "chinchilla", "chough", "clam", "cobra", "cockroach", "cod", "cormorant", "coyote", "crab", "crane", "crocodile", "crow", "curlew", "deer", "dinosaur", "dog", "dogfish", "dolphin", "donkey", "dotterel", "dove", "dragonfly", "duck", "dugong", "dunlin", "eagle", "echidna", "eel", "eland", "elephant", "elephant-seal", "elk", "emu", "falcon", "ferret", "finch", "fish", "flamingo", "fly", "fox", "frog", "gaur", "gazelle", "gerbil", "giant-panda", "giraffe", "gnat", "gnu", "goat", "goose", "goldfinch", "goldfish", "gorilla", "goshawk", "grasshopper", "grouse", "guanaco", "guinea-fowl", "guinea-pig", "gull", "hamster", "hare", "hawk", "hedgehog", "heron", "herring", "hippopotamus", "hornet", "horse", "human", "hummingbird", "hyena", "ibex", "ibis", "jackal", "jaguar", "jay", "jellyfish", "kangaroo", "kingfisher", "koala", "komodo-dragon", "kookabura", "kouprey", "kudu", "lapwing", "lark", "lemur", "leopard", "lion", "llama", "lobster", "locust", "loris", "louse", "lyrebird", "magpie", "mallard", "manatee", "mandrill", "mantis", "marten", "meerkat", "mink", "mole", "mongoose", "monkey", "moose", "mouse", "mosquito", "mule", "narwhal", "newt", "nightingale", "octopus", "okapi", "opossum", "oryx", "ostrich", "otter", "owl", "ox", "oyster", "panther", "parrot", "partridge", "peafowl", "pelican", "penguin", "pheasant", "pig", "pigeon", "polar-bear", "pony", "porcupine", "porpoise", "prairie-dog", "quail", "quelea", "quetzal", "rabbit", "raccoon", "rail", "ram", "rat", "raven", "red-deer", "red-panda", "reindeer", "rhinoceros", "rook", "salamander", "salmon", "sand-dollar", "sandpiper", "sardine", "scorpion", "sea-lion", "sea-urchin", "seahorse", "seal", "shark", "sheep", "shrew", "skunk", "snail", "snake", "sparrow", "spider", "spoonbill", "squid", "squirrel", "starling", "stingray", "stinkbug", "stork", "swallow", "swan", "tapir", "tarsier", "termite", "tiger", "toad", "trout", "turkey", "turtle", "vicuña", "viper", "vulture", "wallaby", "walrus", "wasp", "water-buffalo", "weasel", "whale", "wolf", "wolverine", "wombat", "woodcock", "woodpecker", "worm", "wren", "yak", "zebra"];
+		var animals = [
+			"ocean",
+			"beach",
+			"wave",
+			"tide",
+			"seashell",
+			"coral",
+			"fish",
+			"dolphin",
+			"whale",
+			"shark",
+			"seagull",
+			"seaweed",
+			"surf",
+			"sail",
+			"anchor",
+			"lighthouse",
+			"marina",
+			"coast",
+			"seascape",
+			"seaside",
+			"island",
+			"seafarer",
+			"buoy",
+			"crab",
+			"seal",
+			"saltwater",
+			"treasure",
+			"shipwreck",
+			"seahorse",
+			"seasickness",
+			"benthos",
+			"nautical",
+			"cephalopod",
+			"brackish",
+			"plankton",
+			"narwhal",
+			"trench",
+			"pelagic",
+			"bioluminescence",
+			"hydrothermal",
+			"atoll"
+		];
 
 		this.setState({
 			words: animals,
@@ -76,7 +119,38 @@ var Hangmanizr = React.createClass({
 
 	},
 	phrasalVerbsGame: function (e) {
-		var phrasalVerbs = ["add-up", "blow-up", "bring-up", "call-off", "carry-on", "get-along", "look-up", "pull-over", "turn-up", "watch-out"];
+		var phrasalVerbs = [
+			"abundant",
+			"accurate",
+			"advantage",
+			"analyze",
+			"appropriate",
+			"argue",
+			"assumption",
+			"benefit",
+			"challenge",
+			"comprehensive",
+			"conclude",
+			"contribution",
+			"criticize",
+			"decide",
+			"definition",
+			"demonstrate",
+			"depend",
+			"describe",
+			"determine",
+			"effect",
+			"evidence",
+			"examine",
+			"explain",
+			"factor",
+			"focus",
+			"hypothesis",
+			"impact",
+			"interpret",
+			"observe",
+			"oppose"
+		];
 
 		this.setState({
 			words: phrasalVerbs,
@@ -323,11 +397,13 @@ var Hangmanizr = React.createClass({
 				</header>
 
 				<section>
+
+		
 					<div className="twitter-github-buttons-wrapper">
-						<a href="https://github.com/mburakerman/hangmanizr" className="github-button" target="_blank" rel="external"> <img src="./img/github.svg" alt="Github" /> Fork</a>
+						<a href="https://github.com/ChiaLingWeng/hangman/fork" className="github-button" target="_blank" rel="external"> <img src="./img/github.svg" alt="Github" /> Fork</a>
 
 						<a className="twitter-share-button"
-							href="https://twitter.com/share?url=https://mburakerman.github.io/hangmanizr/&text=Hangmanizr - Quick Hangman Game" target="_blank" rel="external"><img src="./img/twitter.svg" alt="Twitter" />  Tweet</a>
+							href="https://github.com/ChiaLingWeng/hangman/issues" target="_blank" rel="external"><img src="./img/github.svg" alt="Twitter" />  Feedback</a>
 					</div>
 
 
@@ -378,7 +454,7 @@ var Hangmanizr = React.createClass({
 
 					<div className="start-game-buttons-wrapper">
 
-						<button data-tooltip="236 words" className="topic" onClick={this.animalsGame} value="animals" disabled={this.state.clickedButton === "animals"}><svg viewBox="0 0 209.582 209.582" className="topicsSvg animalsSvg">
+						<button data-tooltip="👀" className="topic" onClick={this.animalsGame} value="animals" disabled={this.state.clickedButton === "animals"}><svg viewBox="0 0 209.582 209.582" className="topicsSvg animalsSvg">
 							<path d="M166.287,87.275c-1.624-3.508-5.784-5.035-9.293-3.411c-3.508,1.624-5.036,5.785-3.411,9.293
 		c9.772,21.107,7.471,47.505-6.004,68.89c-4.032,6.399-8.83,12.058-14.247,16.888c4-10.715,6.113-22.136,6.113-33.727
 		c0-25.616-10.164-50.019-28.109-68.036c11.128-7.574,18.452-20.34,18.452-34.786V7c0-2.114-0.955-4.114-2.599-5.443
@@ -388,7 +464,7 @@ var Hangmanizr = React.createClass({
 		c0.721-0.861,1.413-1.741,2.101-2.624c16.469-7.115,30.395-19.152,40.344-34.941C175.402,144.154,178.032,112.643,166.287,87.275zM59.683,15.657l26.588,5.688c0.965,0.206,1.964,0.206,2.929,0l26.588-5.688v26.729c0,15.468-12.584,28.052-28.052,28.052
 		S59.683,57.854,59.683,42.386V15.657zM50.026,145.208c0-23.729,10.206-46.241,28.023-61.908c3.112,0.737,6.352,1.139,9.686,1.139c3.334,0,6.574-0.402,9.686-1.139c17.817,15.668,28.023,38.179,28.023,61.908c0,18.241-6.081,36.003-17.184,50.374H94.736v-38.24c0-3.866-3.134-7-7-7s-7,3.134-7,7v38.24H67.21C56.107,181.211,50.026,163.449,50.026,145.208z" />
 							<path d="M86.444,58.217c0.713,0.713,1.869,0.713,2.583,0l5.421-5.421c1.15-1.15,0.336-3.117-1.291-3.117H82.314
-		c-1.627,0-2.442,1.967-1.291,3.117L86.444,58.217z" /></svg> Animals</button>
+		c-1.627,0-2.442,1.967-1.291,3.117L86.444,58.217z" /></svg> Long time no sea</button>
 
 						<button data-tooltip="520 words" className="topic" onClick={this.cssPropertiesGame} value="css" disabled={this.state.clickedButton === "css"}><svg viewBox="0 0 470.699 470.699" className="topicsSvg cssSvg">
 							<path d="M426.981,0H43.701C34.52,0,27.632,7.769,28.442,16.949L63.45,409.254c0.811,9.173,8.745,18.774,17.644,21.253
@@ -408,8 +484,8 @@ var Hangmanizr = React.createClass({
 		l-14.273,155.315l-102.499,28.26v0.287h-1.143l-103.356-28.547l-6.28-79.367h49.965l3.711,39.971l55.959,15.126l56.245-15.126
 		l6.283-65.097H115.625l-13.418-152.46h252.392L350.025,133.904z" /></svg> Yu Hsuan</button>
 
-						<button data-tooltip="10 words" className="topic" onClick={this.phrasalVerbsGame} value="phrasalVerbs" disabled={this.state.clickedButton === "phrasalVerbs"}><svg className="svg-icon phrasalVerbsSvg" viewBox="0 0 20 20">
-							<path d="M8.627,7.885C8.499,8.388,7.873,8.101,8.13,8.177L4.12,7.143c-0.218-0.057-0.351-0.28-0.293-0.498c0.057-0.218,0.279-0.351,0.497-0.294l4.011,1.037C8.552,7.444,8.685,7.667,8.627,7.885 M8.334,10.123L4.323,9.086C4.105,9.031,3.883,9.162,3.826,9.38C3.769,9.598,3.901,9.82,4.12,9.877l4.01,1.037c-0.262-0.062,0.373,0.192,0.497-0.294C8.685,10.401,8.552,10.18,8.334,10.123 M7.131,12.507L4.323,11.78c-0.218-0.057-0.44,0.076-0.497,0.295c-0.057,0.218,0.075,0.439,0.293,0.495l2.809,0.726c-0.265-0.062,0.37,0.193,0.495-0.293C7.48,12.784,7.35,12.562,7.131,12.507M18.159,3.677v10.701c0,0.186-0.126,0.348-0.306,0.393l-7.755,1.948c-0.07,0.016-0.134,0.016-0.204,0l-7.748-1.948c-0.179-0.045-0.306-0.207-0.306-0.393V3.677c0-0.267,0.249-0.461,0.509-0.396l7.646,1.921l7.654-1.921C17.91,3.216,18.159,3.41,18.159,3.677 M9.589,5.939L2.656,4.203v9.857l6.933,1.737V5.939z M17.344,4.203l-6.939,1.736v9.859l6.939-1.737V4.203z M16.168,6.645c-0.058-0.218-0.279-0.351-0.498-0.294l-4.011,1.037c-0.218,0.057-0.351,0.28-0.293,0.498c0.128,0.503,0.755,0.216,0.498,0.292l4.009-1.034C16.092,7.085,16.225,6.863,16.168,6.645 M16.168,9.38c-0.058-0.218-0.279-0.349-0.498-0.294l-4.011,1.036c-0.218,0.057-0.351,0.279-0.293,0.498c0.124,0.486,0.759,0.232,0.498,0.294l4.009-1.037C16.092,9.82,16.225,9.598,16.168,9.38 M14.963,12.385c-0.055-0.219-0.276-0.35-0.495-0.294l-2.809,0.726c-0.218,0.056-0.351,0.279-0.293,0.496c0.127,0.506,0.755,0.218,0.498,0.293l2.807-0.723C14.89,12.825,15.021,12.603,14.963,12.385"></path></svg> Phrasal Verbs</button>
+						<button data-tooltip="Fighting !" className="topic" onClick={this.phrasalVerbsGame} value="phrasalVerbs" disabled={this.state.clickedButton === "phrasalVerbs"}><svg className="svg-icon phrasalVerbsSvg" viewBox="0 0 20 20">
+							<path d="M8.627,7.885C8.499,8.388,7.873,8.101,8.13,8.177L4.12,7.143c-0.218-0.057-0.351-0.28-0.293-0.498c0.057-0.218,0.279-0.351,0.497-0.294l4.011,1.037C8.552,7.444,8.685,7.667,8.627,7.885 M8.334,10.123L4.323,9.086C4.105,9.031,3.883,9.162,3.826,9.38C3.769,9.598,3.901,9.82,4.12,9.877l4.01,1.037c-0.262-0.062,0.373,0.192,0.497-0.294C8.685,10.401,8.552,10.18,8.334,10.123 M7.131,12.507L4.323,11.78c-0.218-0.057-0.44,0.076-0.497,0.295c-0.057,0.218,0.075,0.439,0.293,0.495l2.809,0.726c-0.265-0.062,0.37,0.193,0.495-0.293C7.48,12.784,7.35,12.562,7.131,12.507M18.159,3.677v10.701c0,0.186-0.126,0.348-0.306,0.393l-7.755,1.948c-0.07,0.016-0.134,0.016-0.204,0l-7.748-1.948c-0.179-0.045-0.306-0.207-0.306-0.393V3.677c0-0.267,0.249-0.461,0.509-0.396l7.646,1.921l7.654-1.921C17.91,3.216,18.159,3.41,18.159,3.677 M9.589,5.939L2.656,4.203v9.857l6.933,1.737V5.939z M17.344,4.203l-6.939,1.736v9.859l6.939-1.737V4.203z M16.168,6.645c-0.058-0.218-0.279-0.351-0.498-0.294l-4.011,1.037c-0.218,0.057-0.351,0.28-0.293,0.498c0.128,0.503,0.755,0.216,0.498,0.292l4.009-1.034C16.092,7.085,16.225,6.863,16.168,6.645 M16.168,9.38c-0.058-0.218-0.279-0.349-0.498-0.294l-4.011,1.036c-0.218,0.057-0.351,0.279-0.293,0.498c0.124,0.486,0.759,0.232,0.498,0.294l4.009-1.037C16.092,9.82,16.225,9.598,16.168,9.38 M14.963,12.385c-0.055-0.219-0.276-0.35-0.495-0.294l-2.809,0.726c-0.218,0.056-0.351,0.279-0.293,0.496c0.127,0.506,0.755,0.218,0.498,0.293l2.807-0.723C14.89,12.825,15.021,12.603,14.963,12.385"></path></svg> TOEFL</button>
 
 					</div>
 

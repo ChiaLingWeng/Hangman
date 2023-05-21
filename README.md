@@ -2,7 +2,7 @@
 A nerdy way to say something on special day
 > [Hangman Game](https://chialingweng.github.io/hangman/)
 
-<img src="https://media.giphy.com/media/3o7TKRNtcQkHuPUeKQ/source.gif" />
+![Alt Text](https://github.com/ChiaLingWeng/hangman/blob/master/readme_asset/demo.gif)
 
 ## Preview on local compiler
 Download VS Code Extension: Live Server\
